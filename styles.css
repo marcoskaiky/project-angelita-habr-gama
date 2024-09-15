@@ -1,0 +1,344 @@
+:root {
+    --tamanho-principal-titulos: 46px;
+    --tamanho-principal-texto: 24px;
+    --tamanho-secundario-titulo: 38px;
+    --tamanho-principal-subtitulo: 34px;
+    --tamanho-principal-subtexto: 20px;
+
+}
+
+body {
+    background-color: #fefefe;
+    font-family: "Ubuntu", sans-serif;
+    ;
+}
+
+header {
+    background-color: #fefefe;
+    margin: 0 auto;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 300px;
+    max-height: 100%;
+}
+
+.headerMenu {
+    margin: auto;
+}
+
+.menu-item a {
+    color: #01315e;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 15px;
+}
+
+.menu-item a:hover {
+    border-bottom: 2px solid #1181b2;
+    transition: 0.1s;
+    padding-bottom: 10px;
+}
+
+.menu-item li {
+    display: inline-flex;
+    padding: 15px 15px;
+    font-size: 20px;
+}
+
+.menu,
+.menu-item {
+    display: inline-block;
+}
+
+/* Se mudar para 33.33333333% PODE DAR MERDA*/
+.col-4 {
+    width: 31%;
+}
+
+.container h1 {
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: var(--tamanho-principal-titulos);
+}
+
+.servicostest {
+    background-color: #fefefe;
+    padding: 0;
+    margin: 8px;
+}
+
+.servicostest p {
+    text-align: start;
+}
+
+/* alinha os cards servicos hospitalares para nao quebrar nas telas */
+.servicosJojo {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.servicosDetalhes {
+    padding: 2vh;
+    font-weight: 300;
+    font-size: var(--tamanho-principal-subtexto);
+    align-items: center;
+}
+
+.servicosDetalhes h2 {
+    font-weight: 500;
+    font-size: var(--tamanho-principal-subtitulo);;
+    color: #1181b2 !important;
+    margin-bottom: 2vh;
+}
+
+.servicos {
+    background-color: rgb(238, 238, 238);
+    padding-bottom: 150px;
+}
+
+.imagemServicos {
+    width: 100%;
+    min-height: 270px !important;
+    max-height: 270px !important;
+}
+
+/* Sobre nos */
+.sobre-nos {
+    padding: 50px 0px;
+    background-color: #212221;
+    height: 1024px;
+    text-align: left;
+}
+
+.sobre-nos h1 {
+    color: #ecfcff;
+}
+
+.sobre-nos-body img {
+    width: 100%;
+    padding-top: 2vh;
+}
+
+.sobre-nos-body h3 {
+    color: #ecfcff;
+    font-size: var(--tamanho-principal-titulos);
+    font-weight: 400;
+}
+
+.sobre-nos-texto {
+    padding-left: 16px;
+    color: #ecfcff;
+    font-weight: 300;
+    font-size: var(--tamanho-principal-texto);;
+}
+
+/* Nossa equipe */
+
+.nossa-equipe {
+    padding: 50px 0px;
+    background-color: rgb(238, 238, 238);
+    height: 1324px;
+}
+
+.nossa-equipe h1 {
+    color: #1181b2 !important;
+}
+
+.nossa-equipe p {
+    font-size: var(--tamanho-principal-texto);;
+    font-weight: 300;
+}
+
+.nossa-equipe-body {
+    justify-content: space-between;
+}
+
+.nossa-equipe-med {
+    text-align: center;
+    border: 2px solid #1181b2;
+    border-radius: 24px;
+    padding: 18px;
+}
+
+.nossa-equipe-med img {
+    width: 300px;
+    height: 350px;
+    margin-top: 34px;
+    border-radius: 24px;
+}
+
+.nossa-equipe-med p {
+    font-size: var(--tamanho-principal-subtexto);
+}
+
+.nossa-equipe-med h3 {
+    font-weight: 400;
+    font-size: var(--tamanho-principal-subtitulo);;
+}
+
+.nossa-equipe-med h2 {
+    color: #1181b2 !important;
+    margin: 20px;
+    font-size: var(--tamanho-secundario-titulo);
+}
+
+footer {
+    background-color: #1181b2 !important;;
+}
+/* footer */
+#contact-area {
+    text-align: center;
+}
+
+.titulo-footer {
+    border-bottom: 1px solid #ecfcff;
+    color: #ecfcff;
+    font-size: 40px;
+    padding: 50px 0;
+    margin-top: 15px;
+
+}
+
+#msg-box a {
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 45px;
+    text-decoration: none;
+    color: #ecfcff;
+}
+
+
+.contact-box {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ecfcff;
+    color: #ecfcff;
+}
+
+
+.contact-box i {
+    color: #ecfcff;
+    border: solid 1px #ecfcff;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+.contact-box p {
+    font-size: 20px;
+
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+#contact-form p {
+    font-size: var(--tamanho-principal-texto);
+    color: #ecfcff;
+}
+
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+    color: #ecfcff;
+    font-size: 18px;
+
+
+}
+
+#contact-form input[type="nome"],
+#contact-form input[type="email"],
+#contact-form textarea[type="mensagem"] {
+    margin-bottom: 13px;
+    border-radius: 5;
+    border: 1px solid #ecfcff;
+    background-color: transparent;
+
+}
+
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1181b2;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: var(--tamanho-principal-subtexto);
+    padding: 6px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border: 1px solid;
+    border-color: #ecfcff;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+.feedback {
+    padding: 50px 0px;
+    background-color: #212221;
+    color: #ecfcff;
+}
+
+.feedback h2 {
+    font-size: var(--tamanho-principal-subtitulo);
+    font-weight: 300;
+}
+
+.principal-depoimentos {
+    font-size: var(--tamanho-principal-texto);
+    font-weight: 300;
+    padding-right: 50px;
+}
+
+.meio-depoimentos {
+    font-size: var(--tamanho-principal-texto);
+    font-weight: 300;
+    padding-left: 50px;
+}
+
+.nomes h2 {
+    padding: 40px 0;
+    font-size: 22px;
+    color: #ecfcff;
+}

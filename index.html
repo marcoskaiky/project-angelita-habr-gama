@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imagens/logo.png" type="img/">
+    <title>Hospital Angelita Habr-Gama</title>
+    <script src="https://kit.fontawesome.com/eae8561377.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <div class="logo">
+                        <a href="index.html"><img src="imagens/logo-texto.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-7 headerMenu">
+                    <nav class="menu">
+                        <ul class="menu-item">
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#servicos">Serviços</a></li>
+                            <li><a href="#sobre-nos">Sobre Nós</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <!-- Inicio indicadores carousel-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <!-- Fim indicadores carousel-->
+
+            <!-- Inicio slide carousel-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/slide 1.png" class="d-block w-100" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/slide2.png" class="d-block w-100" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/slide3 1.png" class="d-block w-100" alt="Third slide">
+                </div>
+            </div>
+            <!-- Fim slide carousel-->
+
+            <!-- Inicio anterior e prox slide carousel-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <!-- Fim anterior e prox slide carousel-->
+        </div>
+    </section>
+
+    <section class="servicos" id="servicos">
+        <div class="container">
+
+            <h1>Serviços Hospitalares</h1>
+
+            <div class="row servicosJojo">
+                <div class="col-4 servicostest">
+                    <img class="imagemServicos" src="imagens/craniotomia.jpg" alt="Craniotomia ilustrativa">
+                    <div class="servicosDetalhes">
+                        <h2>Craniotomia</h2>
+                        <p>Craniotomia é um procedimento cirúrgico no qual uma parte do crânio é removida para
+                            acessar o
+                            cérebro.
+                            É geralmente realizada para tratar condições como tumores, hematomas ou aneurismas. Após
+                            a
+                            cirurgia,
+                            a parte do crânio é normalmente reposicionada e fixada.</p>
+                    </div>
+                </div>
+                <div class="col-4 servicostest">
+                    <img class="imagemServicos" src="imagens/resseccaodetumor.jpg"
+                        alt="Ressecção de tumores ilustrativa">
+                    <div class="servicosDetalhes">
+                        <h2>Ressecção de tumores</h2>
+                        <p>A ressecção de tumores é um procedimento cirúrgico destinado a remover tumores cancerígenos
+                            ou benignos. Durante a cirurgia, o tumor é removido junto com uma margem de tecido
+                            saudável ao redor para reduzir o risco de recidiva.</p>
+                    </div>
+                </div>
+                <div class="col-4 servicostest">
+                    <img class="imagemServicos" src="imagens/neurocirurgia-coluna-vertebral.jpg" alt="">
+                    <div class="servicosDetalhes">
+                        <h2>Cirurgia de coluna vertebral</h2>
+                        <p>A cirurgia de coluna vertebral é um procedimento para tratar problemas na coluna, como hérnia
+                            de disco, estenose espinhal ou fraturas. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row servicosJojo">
+                <div class="col-4 servicostest ">
+                    <img class="imagemServicos" src="imagens/hernias.jpg" alt="">
+                    <div class="servicosDetalhes ">
+                        <h2>Cirurgias de Hérnias</h2>
+                        <p>As cirurgias de hérnias visam corrigir protrusões de tecidos ou órgãos que saem através de
+                            uma fraqueza na parede abdominal ou na região inguinal. </p>
+                    </div>
+                </div>
+                <div class="col-4 servicostest">
+                    <img class="imagemServicos" src="imagens/neurocirurgias.webp" alt="">
+                    <div class="servicosDetalhes">
+                        <h2>Neurocirurgia: Aneurisma cerebral</h2>
+                        <p>A neurocirurgia para aneurisma cerebral visa tratar e prevenir a ruptura de um aneurisma, que
+                            é uma dilatação anormal de um vaso sanguíneo no cérebro.</p>
+                    </div>
+                </div>
+                <div class="col-4 servicostest">
+                    <img class="imagemServicos" src="imagens/medular.jpg" alt="">
+                    <div class="servicosDetalhes">
+                        <h2>Cirurgias intramedulares</h2>
+                        <p>Cirurgias intramedulares são procedimentos realizados para tratar lesões ou condições que
+                            afetam a medula espinhal. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre-nos" id="sobre-nos">
+        <div class="container">
+            <h1>Sobre Nós</h1>
+            <div class="row sobre-nos-body">
+                <div class="col-6">
+                    <h3>Melhorando e impactando vidas todos os dias por meio de medidas de qualidade</h3>
+                    <img src="imagens/hospital_photo1.webp" height="500px" alt="Foto Hospital">
+                </div>
+                <div class="col-6">
+                    <div class="sobre-nos-texto">
+                        <p>O Hospital Angelita Habr-Gama é um centro de excelência em cuidados de saúde, comprometido
+                            com a
+                            promoção do bem-estar e a qualidade de vida de nossos pacientes. Com uma equipe médica
+                            altamente
+                            qualificada e tecnologias avançadas, oferecemos tratamentos especializados em diversas áreas
+                            da
+                            medicina, sempre com um enfoque humanizado e personalizado.</p>
+
+                        <p>Nossa missão é proporcionar um atendimento de alta qualidade, aliado a um ambiente acolhedor
+                            e
+                            respeitoso. Acreditamos que a saúde é uma jornada que merece cuidado e atenção em cada
+                            etapa, e
+                            nos dedicamos a garantir que cada paciente receba o melhor suporte possível.</p>
+
+                        <p>Sua saúde é nossa prioridade, e trabalhamos incansavelmente para exceder suas expectativas e
+                            oferecer o melhor cuidado possível.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nossa-equipe" id="nossa-equipe">
+        <div class="container">
+            <h1>Nossa Equipe</h1>
+            <p>No Hospital Angelita Habr-Gama, nossa equipe médica é composta por profissionais altamente qualificados e
+                dedicados, comprometidos com a excelência no cuidado ao paciente. Cada membro da nossa equipe traz uma
+                expertise única e uma abordagem humanizada, garantindo que você receba o melhor atendimento possível.
+                Estamos aqui para oferecer suporte especializado em diversas áreas da medicina, sempre com o objetivo de
+                promover a saúde e o bem-estar de nossos pacientes.</p>
+            <div class="row nossa-equipe-body">
+                <div class="col-4 nossa-equipe-med">
+                    <img src="imagens/doctor1.jpg" alt="Foto Médico 1">
+                    <h2>Dr. João Carlos da Silva</h2>
+                    <h3>Especialização: Cirurgião Geral</h3>
+                    <p>O Dr. João Carlos da Silva é um cirurgião geral com mais de 15 anos de experiência. Ele é
+                        especializado em procedimentos cirúrgicos complexos e emergenciais, sempre com um foco em
+                        segurança e resultados eficazes.
+                    </p>
+                </div>
+                <div class="col-4 nossa-equipe-med">
+                    <img src="imagens/doctor2.jpg" alt="Foto Médico 2">
+                    <h2>Dra. Mariana Silva Santos</h2>
+                    <h3>Especialização: Neurologista</h3>
+                    <p>A Dra. Mariana Silva Santos é neurologista com vasta experiência no tratamento de doenças do
+                        sistema nervoso. Ela oferece cuidados avançados e personalizados para uma variedade de condições
+                        neurológicas.
+                    </p>
+                </div>
+                <div class="col-4 nossa-equipe-med">
+                    <img src="imagens/doctor3.jpg" alt="Foto Médico 3">
+                    <h2>Dra. Ana Beatriz Oliveira</h2>
+                    <h3>Especialização: Pneumologista</h3>
+                    <p>A Dra. Ana Beatriz Oliveira é pneumologista especializada no diagnóstico e tratamento de doenças
+                        respiratórias. Ela proporciona cuidados especializados para condições como asma e bronquite
+                        crônica.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback">
+        <div class="container">
+            <h1 class="text-center">Depoimentos</h1>
+            <h2 class="text-end">Eduardo Martins</h2>
+            <div class="row">
+                <div class="feedback-item col-12 d-flex align-items-center text-start">
+                    <p class="principal-depoimentos">Gostaria de expressar minha profunda gratidão pelo excelente atendimento que recebi no Hospital Angelita Habr-Gama. Desde a chegada até a alta, a equipe médica e de enfermagem foi excepcionalmente atenciosa e profissional. O cuidado e a empatia demonstrados fizeram toda a diferença na minha recuperação. Agradeço a todos pelo empenho e dedicação.</p>
+                    <img src="imagens/Paciente1.webp" width="400" alt="">
+                </div>
+            </div>
+            <h2>José Ricardo</h2>
+            <div class="row">
+                <div class="feedback-item col-12 d-flex align-items-center text-end">
+                    <img src="imagens/Paciente2.jpg" width="400" alt="">
+                    <p class="meio-depoimentos">Gostaria de agradecer imensamente pelo atendimento impecável no Hospital Angelita Habr-Gama. Desde o início, a equipe mostrou um profissionalismo e uma dedicação admiráveis. Cada membro da equipe, desde os médicos até os enfermeiros, foi extremamente atencioso e gentil, proporcionando um ambiente acolhedor e seguro. O cuidado recebido fez uma grande diferença na minha recuperação. Agradeço de coração a todos pelo excelente trabalho.</p>
+                </div>
+            </div>
+            <h2 class="text-end">Lucas Ferreira</h2>
+            <div class="row">
+                <div class="feedback-item col-12 d-flex align-items-center text-start">
+                    <p class="principal-depoimentos">Gostaria de expressar meu sincero agradecimento pelo atendimento maravilhoso no Hospital Angelita Habr-Gama. A equipe foi extremamente cuidadosa, profissional e acolhedora durante toda a minha estadia. A atenção e o carinho recebidos fizeram toda a diferença na minha recuperação. Sou grato a todos os envolvidos pelo suporte e dedicação excepcionais.
+                    </p>
+                    <img src="imagens/Paciente3.webp" width="400" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="titulo-footer">Entre em contato conosco</h3>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-phone"></i>
+                        <p><span class="contact-title">Ligue para:</span> (44)99999-9999</p>
+                        <p><span class="contact-title">Horários:</span> 8:00 - 18:00</p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-envelope"></i>
+                        <p><span class="contact-title">Envie um email:</span></p>
+                        <p>contato@hospitalangelitagama.com.br</p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p><span class="contact-title">Venha nos conhecer:</span></p>
+                        <p>Rua Lorem Ipsum - 2626</p>
+                    </div>
+
+                    <div class="col-md-6" id="msg-box">
+                        <a class="fa-brands fa-instagram" href="https://www.instagram.com/" target="_blank" style="color: #ffffff;"></a>
+                        <a class="fa-brands fa-facebook" href="https://www.facebook.com/" target="_blank" style="color: #ffffff;"></a>
+                        <a class="fa-brands fa-whatsapp" href="https://web.whatsapp.com/" target="_blank" style="color: #ffffff;"></a>
+                    </div>
+                    <div class="col-md-6" id="contact-form">
+                        <p>Ou nos deixe uma mensagem:</p>
+                        <form action="">
+                            <input type="nome" class="form-control" placeholder="Nome" name="nome">
+                            <input type="email" class="form-control" placeholder="E-Mail" name="email">
+                            <textarea type="mensagem" class="form-control" rows="3" placeholder="Sua mensagem..." name="mensagem"></textarea>
+                            <button class="button" style="vertical-align:middle"><span>ENVIAR </span></button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="row nomes">
+                    <div class="col-3">
+                        <h2>Gabriel Fonseca Proenca RA:14608</h2>
+                    </div>
+                    <div class="col-3">
+                        <h2>Marcos Kaiky Rodrigues Garcia RA:14610</h2>
+                    </div>
+                    <div class="col-3">
+                        <h2>Kaiky Massaki Ishibashi RA:14535</h2>
+                    </div>
+                    <div class="col-3">
+                        <h2>Guilherme Cardoso Carreira RA:14651</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
